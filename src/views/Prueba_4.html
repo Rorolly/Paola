@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <%- include ('part/head.html')%>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/Prueba_4.css" type="text/css">
+    <title><%=TitlePag%></title>
+</head>
+<body>
+    <%- include ('part/navigation.html')%>
+
+    <div class="container-fluid video">
+        <img src="/public/video/cielo4.jpg" alt="" class="img-fluid">
+    </div>
+
+    <header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
+          <source src="/public/video/rain.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100 text">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+                <p>
+                    Hemos llegado al final de este viaje Paola. <br>
+                    Un viaje corto, pero espero que haya sido de tu agrado, 
+                    mi propósito con estos acertijos era distraerte y que te divirtieras de una forma que solo yo conozco,
+                     inyectándote curiosidad y esa curiosidad lleva a que quieras saber todo, 
+                    además de un incentivo que tendrás en cada prueba como lo has venido recibiendo.
+                </p>
+                <p class="text center">Cuarta prueba:</p>
+                <p>
+                    Estas nuevamente acompañada por alguien más, te dije que no estarías sola en este recorrido. 
+                    Nuevamente te recordare un lugar muy especial para ti. El lugar en donde has vivido toda la vida,
+                    el lugar que forjaron tus padres trabajando a pulso para que hoy puedas disponer de un hogar.
+                    Dirige al lugar que te acabo de recodar y nuevamente envíale una foto de la casa cuando hayas llegado a la persona con la que actualmente estas (sentimentalmente hablando).
+
+                </p>
+               
+            </div>
+          </div>
+        </div>
+      </header>
+    
+    <div class="container-fluid text-white text-center text-2 time">
+        <div>
+            <p>El tiempo corre</p>
+        </div>
+        <div id="countdown" class="animate__animated animate__infinite animate__flash animate__slow"></div>
+    </div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.483680942978!2d-74.06741308523704!3d4.858302696472293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwNTEnMjkuOSJOIDc0wrAwMyc1NC44Ilc!5e0!3m2!1ses!2sco!4v1598480455003!5m2!1ses!2sco" width="400" height="300" frameborder="0" 
+    style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="embed-responsive item "></iframe>
+    <%- include ('part/footer.html')%>
+</body>
+<script src="/public/js/reloj_4.js"></script>
+</html>

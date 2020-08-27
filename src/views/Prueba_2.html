@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <%- include ('part/head.html')%>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/Prueba_2.css" type="text/css">
+    <title><%=TitlePag%></title>
+</head>
+<body>
+    <%- include ('part/navigation.html')%>  
+
+    <div class="container-fluid video">
+      <img src="/public/video/cielo2.jpg" alt="" class="img-fluid m-0">
+    </div>
+
+    <header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="/public/video/fogata.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100 text">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+              <p class="display-3">
+                <p class=" p">Sencillo, ¿Verdad? No son pruebas tan complicadas lastimosamente 
+                    el tiempo en el cual se realizan no me favorecen en lo absoluto.</p> <br>
+                <p class="text-center">Segunda prueba:</p> <br>
+                <p>Has llegado al lugar que te ped&iacute, ahora tendr&aacutes compa&ntilde&iacutea para completar los siguientes acertijos. <br>
+
+                    Hace 2 a&ntildeos y medio comenzaste a frecuentar un lugar el cual ha sido de gran experiencia a nivel profesional, has conocido personas a lo mejor agradables como igualmente detestables. Quiero que te dirijas a ese lugar, a ese lugar donde tu futuro comenzara a crecer y el cual estar&aacutes durante otros dos a&ntildeos y medio. 
+                    Por cierto, debes enviar evidencia a la persona con la cual te encuentras hoy en d&iacutea en una relaci&oacuten.Debes enviarle una fotografía del lugar al cual debas ir, el debe saber donde te encuentras cada vez que completas una prueba, comenzando por esta, pero ten cuidado, el no se puede enterar de nada, sino romper&aacutes la primera regla que te he indicado,
+                    te dar&eacute la libertad de que le env&iacutees la prueba de los acertijos completados pero nada m&aacutes.</p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+
+    <div class="container-fluid text-white text-center text-1 time">
+        <div>
+            <p>El tiempo corre</p>
+        </div>
+        <div id="countdown" class="animate__animated animate__infinite animate__flash animate__slow"></div>
+    </div>
+
+    
+    
+    
+    <%- include ('part/footer.html')%>
+</body>
+<script src="/public/js/reloj_3.js"> </script>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <%- include ('part/head.html')%>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/Prueba_3.css" type="text/css">
+    <title><%=TitlePag%></title>
+</head>
+
+<body>
+    <%- include ('part/navigation.html')%>
+
+    <div class="container-fluid video">
+        <img src="/public/video/cielo3.jpg" alt="" class="img-fluid">
+    </div>
+    <header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="/public/video/city.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center text">
+                <div class="w-100 text-white">
+                    <p class="display-3">
+
+                    <p>Lo has hecho muy bien hasta ahora Paola. <br>
+                        No falta mucho para que termines cada uno de estos acertijos.
+                        Cada uno de los lugares a los cuales te has desplazado son previamente seleccionado para que
+                        entiendas lo importante que es compartir con amigos, familiares o conocidos, fechas importantes
+                        para ti.
+                    </p>
+                    <p class="text-center"> Tercera prueba:
+                    </p>
+                    <p>Ahora que te encuentra de pie en el lugar al cual le tomaste la fotograf&iacutea y era parte del
+                        acertijo 2, deber&aacutes caminar y desplazarte al 3 lugar. <br>
+                        Este lugar ha sido el dichoso lugar en el cual sucedi&oacute todo, no esta muy lejos de donde te
+                        encuentras, pero ah&iacute sucedi&oacute algo que ni para ti ni para el era de esperarse, algo
+                        que posiblemente ha llevado a una linda amistad y relaci&oacuten.
+                        Ese d&iacutea llegaste a ese lugar en otro mundo y con pocas ganas de realmente estar ah&iacute.
+                        El resto de la historia la conoces t&uacute y el… <br>
+
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <div class="container-fluid text-white text-center time text-2">
+        <div>
+            <p>El tiempo corre</p>
+        </div>
+        <div id="countdown" class="animate__animated animate__infinite animate__flash animate__slow"></div>
+    </div>
+
+    <div class="container">
+        <div class="col-sm 1">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.3595037008886!2d-74.03880728523706!3d4.8793130964571745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwNTInNDUuNSJOIDc0wrAwMicxMS44Ilc!5e0!3m2!1ses!2sco!4v1598291163848!5m2!1ses!2sco"
+                width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0" class="embed-responsive item ">
+            </iframe>
+        </div>
+    </div>
+
+    <%- include ('part/footer.html')%>
+</body>
+<script src="/public/js/reloj_3.js"></script>
+
+</html>

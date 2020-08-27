@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/main.css" type="text/css">
+    <%- include ('part/head.html')%>
+    <title><%= TitlePag%></title>
+    <link rel="stylesheet" href="/public/css/main.css">
+
+</head>
+
+<body>
+    <%- include ('part/navigation.html')%>
+    <!--Primera Imagen-->
+   <div class="container-fluid video  ">
+       <img src="/public/video/camping.jpg" alt="" class="img-fluid">
+   </div>
+    <!-- Primer texto-->
+    <header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="/public/video/thunder.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100 texto">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <p class="display-3">
+                        <p>
+                            Hola Paola, es posible que tu no me conozcas, pero yo a ti si, durante mucho tiempo has hecho que las personas mas cercanas a ti no puedan disfrutar de una celebración agradable debido 
+                            a que no se te hace algo que valga la pena. Te enseñare que la vida es de pequeños momentos y más si lo organizan 
+                            personas que se preocupan por ti, es por eso que quiero jugar un juego.<br> <br>
+                            Las reglas son sencillas, no puedes faltar a ninguna:
+        
+                        <ol>
+                            <li>Tendrás un tiempo limite para cada una de estas pruebas.</li>
+                            <li> No puedo realizar ninguna pregunta a ninguno de tus cercanos, familiares, amigos y demás;<br>
+                            </li>
+                            <li> Tendrás ayuda, no te preocupes de ello… </li>
+                            <li> Date prisa, el tiempo corre</li>
+                        </ol>
+                        </p>
+        
+                        <p>
+                            Tendras un tiempo limite para cada una de estas pruebas, si no llegas a completarlas en el tiempo limite, no recibiras
+                            la recompensa final que tendra cada una de ellas, de ti depende saber que hay detras de cada una de ellas.
+                        </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </header>
+    <!--Video-->
+    <!--    <div class="container text-white p-2 ">
+        <div class="">
+            <div class="col-sm 2">
+                <video src="/public/video/Paola-Intro.mp4 " controls></video>
+
+            </div>
+        </div>
+    </div>
+-->
+
+    <div class="container-fluid text-center text-white  text-1" id="color">
+        <div class="col-sm 2">
+            <p>Vivir o morir, tu decides...</p>
+            <div id="countdown"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-white text-center bg text-1">
+        <div class="row ">
+            <div class="col-sm 1 p-5 " >
+                <h1>Te dejo muchas imagenes para que te inspires y logres superar todo</h1>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-sm 2 p-2 ">
+                <img class="img-fluid img-thumbnail img " src="/public/img/patricio-amor.jpg" id="img" alt="Patricio">
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-sm 2 p-2">
+                <img class="img-fluid img-thumbnail img " src="/public/img/patricio.png" id="img_1" alt="Patricio">
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-sm 2 p-2">
+                <img class="img-fluid img-thumbnail img" src="/public/img/1.jpeg" id="img_2" alt="">
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-sm 2 p-2">
+                <img class="img-fluid img-thumbnail img" src="/public/img/2.jpeg" id="img_3" alt="">
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-sm 2 p-2">
+                <img class="img-fluid img-thumbnail img" src="/public/img/3.jpeg" id="img_4" alt="">
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-sm 2 p-2">
+                <img class="img-fluid img-thumbnail img " src="/public/img/4.jpeg" id="img_5" alt="">
+            </div>
+        </div>
+
+        <div class="row  text-danger text-center ">
+            <div class="col-sm 2 p-2">
+                <a href="#init" class="ca bg-dark">Volver al inicio</a>
+            </div>
+        </div>
+
+
+    </div>
+    <%- include ('part/footer.html')%>
+    
+</body>
+<script src="/event.js"> </script>
+<script src="/public/js/reloj.js"> </script>
+
+</html>
