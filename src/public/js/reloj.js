@@ -1,5 +1,5 @@
-window.onload = () => {
-    var end = new Date('08/12/2020 3:33  PM');
+
+    var end = new Date('09/23/2020 4:30 PM');
 
     var _second = 1000;
     var _minute = _second * 60;
@@ -44,4 +44,3 @@ window.onload = () => {
     //    }
         
     //}
-}
